@@ -29,7 +29,7 @@ spark-submit \
 --conf spark.executor.extraJavaOptions=-XX:+UseConcMarkSweepGC \
 --name "user address" \
 --executor-memory 4g \
-/data/bglogs/sparkstreaming/UserTagProcess-1.jar  $1
+/data/bglogs/sparkstreaming/UserTagProcess-2.jar  $1
 }
 
 firstAndLastFun(){
@@ -40,7 +40,7 @@ spark-submit \
 --conf spark.executor.extraJavaOptions=-XX:+UseConcMarkSweepGC \
 --name "user last" \
 --executor-memory 4g \
-/data/bglogs/sparkstreaming/UserTagProcess-1.jar $1
+/data/bglogs/sparkstreaming/UserTagProcess-2.jar $1
 }
 
 #########################################################

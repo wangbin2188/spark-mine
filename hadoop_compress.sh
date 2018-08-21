@@ -40,7 +40,7 @@ fi
 spark-submit \
 --class MergeCompress  \
 --master yarn  --executor-memory 10g \
-/data/bglogs/sparkstreaming/MergeCompress-2.jar ${spark_input} ${spark_output} 
+/data/bglogs/sparkstreaming/UserTagProcess-2.jar ${spark_input} ${spark_output} 
 hadoop fs -rm -r ${spark_input}
 }
 
