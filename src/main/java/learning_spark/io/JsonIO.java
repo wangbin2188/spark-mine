@@ -28,7 +28,6 @@ public class JsonIO {
     }
 }
 
-class Person{}
 class ParseJson implements FlatMapFunction<Iterator<String>, Person> {
     @Override
     public Iterable<Person> call(Iterator<String> lines) throws Exception {
